@@ -20,11 +20,14 @@ let package = Package(
             dependencies: [],
             path: "Sources",
             linkerSettings: [
-                .linkedLibrary("CommonCrypto")
+                .linkedFramework("Security")
             ]),
         .testTarget(
             name: "AuthModuleTests",
             dependencies: ["AuthModule"],
-            path: "Tests"),
+            path: "Tests",
+            linkerSettings: [
+                .linkedFramework("Security")
+            ]),
     ]
 )
