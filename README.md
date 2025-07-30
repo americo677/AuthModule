@@ -705,7 +705,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 **Americo Cantillo Gutierrez:.**
 
-- GitHub: [@tu-usuario](https://github.com/americo677)
+- GitHub: [@americo677](https://github.com/americo677)
 
 ## 🙏 Agradecimientos
 
